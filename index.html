@@ -37,7 +37,7 @@
     </script>
   </head>
   <body class="font-poppins">
-    <header class="w-11/12 mx-auto mt-[25px] md:-[51px]">
+    <header class="lg:w-10/12 w-11/12 mx-auto mt-[25px] md:mt-[51px]">
       <!-- navbar -->
       <div
         class="navbar bg-base-100 justify-end md:justify-between mb-[30px] lg:md-[50px]">
@@ -59,7 +59,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow pr-[15px]">
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow pr-[15px] w-fit">
               <li><a class="text-black font-medium text-base">Home</a></li>
               <li><a class="text-black font-medium text-base">Shop</a></li>
               <li><a class="text-black font-medium text-base">News</a></li>
@@ -117,8 +117,8 @@
             </div>
             <div
               class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
+              <a href="#slide3" class="btn btn-ghost text-xl font-[100]">❮</a>
+              <a href="#slide2" class="btn btn-ghost text-xl font-[100]">❯</a>
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
@@ -143,13 +143,13 @@
               </div>
               <!-- image -->
               <div>
-                <img src="./images/slider/bike1.png" alt="" />
+                <img src="./images/slider/bike2.png" alt="" />
               </div>
             </div>
             <div
               class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
+              <a href="#slide1" class="btn btn-ghost text-xl font-[100]">❮</a>
+              <a href="#slide3" class="btn btn-ghost text-xl font-[100]">❯</a>
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
@@ -174,19 +174,128 @@
               </div>
               <!-- image -->
               <div>
-                <img src="./images/slider/bike1.png" alt="" />
+                <img src="./images/slider/bike3.png" alt="" />
               </div>
             </div>
             <div
               class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide2" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
+              <a href="#slide2" class="btn btn-ghost text-xl font-[100]">❮</a>
+              <a href="#slide1" class="btn btn-ghost text-xl font-[100]">❯</a>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="md:mt-[150px] mt-[100px] lg:w-10/12 w-11/12 mx-auto">
+      <!-- featured section -->
+      <div class="space-y-9 mb-[100px] md:mb-[130px]">
+        <!-- text -->
+        <div>
+          <h1
+            class="text-center md:text-5xl text-2xl sm:3xl font-semibold mb-[15px]">
+            Fetured Bikes In This Year
+          </h1>
+          <p class="text-center font-semibold text-sm text-primary1">
+            Best bike collection
+          </p>
+          <hr class="w-[50px] mx-auto border-primary1" />
+        </div>
+        <!-- images -->
+        <div
+          class="grid md:grid-cols-3 md:gap-24 grid-cols-1 gap-12 justify-items-center">
+          <img
+            src="./images/others/feature-bike.png"
+            alt=""
+            class="w-3/5 md:w-auto" />
+          <img
+            src="./images/others/feature-bike.png"
+            alt=""
+            class="w-3/5 md:w-auto" />
+          <img
+            src="./images/others/feature-bike.png"
+            alt=""
+            class="w-3/5 md:w-auto" />
+        </div>
+      </div>
+      <!-- latest news section -->
+      <div>
+        <h1 class="mb-[50px] text-center">latest News</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-[20px]">
+          <div
+            class="card card-compact bg-base-100 shadow-[0_0_4px_rgba(0,0,0,.15)] rounded-md">
+            <figure class="p-[16px]">
+              <img
+                src="./images/others/latest1.png"
+                alt="Shoes"
+                class="w-full" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title font-semibold text-2xl">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="font-normal text-base text-[#6C6C6C] leading-[25px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn bg-primary1 font-medium text-base text-white">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card card-compact bg-base-100 shadow-[0_0_4px_rgba(0,0,0,.15)] rounded-md">
+            <figure class="p-[16px]">
+              <img
+                src="./images/others/latest2.png"
+                alt="Shoes"
+                class="w-full" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title font-semibold text-2xl">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="font-normal text-base text-[#6C6C6C] leading-[25px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn bg-white font-medium text-base text-primary1 border-[1px] border-primary1">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card card-compact bg-base-100 shadow-[0_0_4px_rgba(0,0,0,.15)] rounded-md">
+            <figure class="p-[16px]">
+              <img
+                src="./images/others/latest3.png"
+                alt="Shoes"
+                class="w-full" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title font-semibold text-2xl">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="font-normal text-base text-[#6C6C6C] leading-[25px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button
+                  class="btn bg-white font-medium text-base text-primary1 border-[1px] border-primary1">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
